@@ -1,0 +1,33 @@
+h1{
+    color:red;
+}
+body{
+    background-color: aqua;
+}
+
+.navigation{
+    background-color: #478CCF;
+    margin: 0;
+}
+
+.links{
+    list-style-type: none;
+}
+
+.links>li{
+display: inline-block;
+margin: 20px;
+}
+
+.links>li>a{
+    color: yellow;
+    text-decoration: none;
+}
+
+.hero{
+    background-color:white;
+    display: flex
+    
+}
+
+
