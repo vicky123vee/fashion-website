@@ -14,7 +14,7 @@ h1{
 
 
 .navigation{
-    background-color: #478CCF;
+    background-color: ;
     margin: 0;
 }
 
@@ -40,14 +40,35 @@ margin: 20px;
 
 .heroimg{
     height:650px;
-
     border-radius: 100px;
     
 }
 .hero-text{
     margin: 10px;
-    border: 2px solid aqua;
+    border: 1ic solid aqua;
     padding: 15px 25px 50px 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
+    height: 350px;
+    border-radius: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.btn{
+    background-color: aquamarine;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 5px 10px black;
+}
+.but{
+    background-color: aquamarine;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 5px 10px black;
 }
