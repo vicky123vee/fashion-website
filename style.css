@@ -69,9 +69,6 @@ display: inline-block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-
-
 }
 .btn{
     background-color: aquamarine;
@@ -88,55 +85,39 @@ display: inline-block;
     box-shadow: 100px 200px black;
 }
 .features{
-    border:1px solid red;
-
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .clothes{
-    display: flex;
+     display: flex;
+    justify-content: center;
+    border: solid red;
     flex-direction: row;
-    
-}
-.image1{
-    width:100%;
-    /* object-fit:cover; */
-    height: 50%;
-    border:1px solid red;
+    background-color: DodgerBlue;
 
-}    
+}  
 .dress{
-    display: flex;
-    flex-direction: column;
-    gap:0;
-    border:1px solid blue;
-    /* flex: 1; */
-    border-radius: 10px;
-    padding: 15px;
-    /* height: 450px; */
-
+    width: 30%;
 }
-.image2{
-    width:100%;
-    object-fit:cover;
-    height: 100px;
+.dress>div>img{
+    width: 400px;
+    height: auto;
 }
-.trousers{
-    border:1px solid red;
-    flex: 1;
-    border-radius: 10px;
-    padding: 15px;
-    height: 100px;
+.trouser{
+    width: 20%;  
 }
-.image3{
-    width:100%;
-    object-fit:cover;
-    height: 100px;
-}
+.trouser>div>img{
+    width: 400px;
+    height: auto;
+}   
 .shoes{
-    border:1px solid purple;
-    flex: 1;
-    border-radius: 10px;
-    padding: 15px;
-    height: 100px;
-
+    width: 400%;
+    height: auto;
 }
+
+
+
+
+
 
