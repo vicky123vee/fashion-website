@@ -38,6 +38,10 @@ display: inline-block;
     padding: 10px;
     margin: 90px;
 }
+.flex-container{
+    flex-direction: right;
+}
+
 
 .hero{
     background-color:white;
@@ -94,26 +98,49 @@ display: inline-block;
     justify-content: center;
     border: solid red;
     flex-direction: row;
-    background-color: DodgerBlue;
+    background-color: aquamarine;
 
 }  
 .dress{
     width: 30%;
 }
 .dress>div>img{
-    width: 400px;
+    width: 30%;
     height: auto;
 }
-.trouser{
-    width: 20%;  
+.trousers{
+    width: 30%;  
 }
-.trouser>div>img{
-    width: 400px;
+.trousers>div>img{
+    width: 30%;
     height: auto;
 }   
 .shoes{
-    width: 400%;
+    width: 400px;
     height: auto;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(245, 242, 242, 0.2);
+  transition: 0.3s;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 250px;
+  margin: 2%;
+  border: 2px solid red;
+  padding: 30px 20px;
+  border-radius: 30px;
+  background-color: hsl(127, 14%, 88%);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
 }
 
 
