@@ -90,33 +90,38 @@ display: inline-block;
 }
 .features{
      display: block;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
 }
 .clothes{
-     display: flex;
+    display: flex;
     justify-content: center;
     border: solid red;
     flex-direction: row;
     background-color: aquamarine;
+    margin: auto;
 
 }  
 .dress{
-    width: 30%;
+    width: 20%;
 }
 .dress>div>img{
-    width: 30%;
+    width: 20%;
     height: auto;
 }
 .trousers{
-    width: 30%;  
+    width: 40%;  
 }
 .trousers>div>img{
-    width: 30%;
+    width: 20%;
     height: auto;
-}   
+}
 .shoes{
-    width: 400px;
+    width: auto;
+
+}   
+.shoes>div>img{
+    width: 20%;
     height: auto;
 }
 
