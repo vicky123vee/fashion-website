@@ -103,14 +103,14 @@ display: inline-block;
 
 }  
 .dress{
-    width: 20%;
+    width: auto;
 }
 .dress>div>img{
     width: 20%;
     height: auto;
 }
 .trousers{
-    width: 40%;  
+    width: auto;  
 }
 .trousers>div>img{
     width: 20%;
@@ -121,8 +121,20 @@ display: inline-block;
 
 }   
 .shoes>div>img{
-    width: 20%;
     height: auto;
+     width: 20%;
+    width: 20%;
+    
+}
+.out{
+   width: auto;  
+}
+.out>div>img{
+    height: auto;
+     width: 20%;
+
+    width: 20%;
+
 }
 
 .carddress{
@@ -168,6 +180,7 @@ display: inline-block;
   margin-right: 350px;
   margin-left: 350px;
 }
+
 .cardshoes{
   box-shadow: 0 4px 8px 0 rgba(245, 242, 242, 0.2);
   transition: 0.3s;
@@ -183,11 +196,35 @@ display: inline-block;
   background-color: hsl(127, 14%, 88%); 
   float: inline-end;
 }
+.cardout{
+     box-shadow: 0 4px 8px 0 rgba(245, 242, 242, 0.2);
+  transition: 0.3s;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 250px;
+  margin: 2%;
+  border: 2px solid red;
+  padding: 30px 20px;
+  border-radius: 30px;
+  background-color: hsl(127, 14%, 88%); 
+  float: inline-end 
+}
+
+
 .card{
    display: flex;
    justify-items: flex-end;
    border: 2px solid red;
    flex-direction: column;
+}
+.footer{
+   background-color: #777;
+  padding: 10px;
+  text-align: row;
+  color: white;
+
 }
 
 
